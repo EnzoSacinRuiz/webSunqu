@@ -4,6 +4,7 @@ import Home from './views/home/home.component';
 
 import {Route,BrowserRouter,Routes} from "react-router-dom"
 
+import './assets/fonts/fonts.css';
 import "./../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 
