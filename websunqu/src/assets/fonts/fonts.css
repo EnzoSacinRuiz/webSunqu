@@ -5,3 +5,20 @@
     font-weight: bold;
     font-style: normal;
   }
+
+  @font-face {
+    font-family: 'TrialRooftop-Medium';
+    src: local('TrialRooftop-Medium'),
+         url('./TRIAL_Rooftop-Medium-BF64a6319f707bb.otf') format('opentype');
+    font-weight: normal; /* or 500 if "medium" is considered font-weight: 500 */
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'TrialRooftop-Bold';
+    src: local('TrialRooftop-Bold'),
+         url('./TRIAL_Rooftop-Bold-BF64a6319fb7a91.otf') format('opentype');
+    font-weight: normal; /* or 500 if "medium" is considered font-weight: 500 */
+    font-style: normal;
+}

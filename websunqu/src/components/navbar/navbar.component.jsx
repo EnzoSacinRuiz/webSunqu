@@ -5,6 +5,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import logoSunqu from "../../assets/images/logoSunqu.png"
 
+import "./navbar.styles.css"
+
 function NavbarComponent() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
@@ -13,7 +15,7 @@ function NavbarComponent() {
         <img
             alt="Logo"
             src={logoSunqu}
-            width="30" // Set the width as needed
+            width="100" // Set the width as needed
             height="30" // Set the height as needed
             className="d-inline-block align-top"
           />
@@ -21,9 +23,11 @@ function NavbarComponent() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+            <Nav.Link href="#home" className="nav-link-custom">Insights</Nav.Link>
+            <Nav.Link href="#link" className="nav-link-custom">Nosotros</Nav.Link>
+            <Nav.Link href="#link" className="nav-link-custom">Servicios</Nav.Link>
+            <Nav.Link href="#link" className="nav-link-custom">Equipo</Nav.Link>
+            {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -33,7 +37,7 @@ function NavbarComponent() {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
