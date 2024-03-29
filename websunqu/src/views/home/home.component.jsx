@@ -2,8 +2,12 @@ import './home.styles.css';
 import NavbarComponent from '../../components/navbar/navbar.component';
 import TypewritterComponent from '../../components/home/typewriter';
 import CarouselComponent from '../../components/home/carousel/carousel.component';
+import CardsHome from '../../components/home/cardsHome/cardsHome';
+import ClientsHome from '../../components/home/clients/clients.component';
 
 import React, { useState, useEffect } from 'react';
+
+
 
 
 
@@ -28,6 +32,10 @@ function Home() {
  
 
             <TypewritterComponent phrases={phrases} phraseIndex={phraseIndex} />
+
+            <CardsHome/>
+
+            <ClientsHome/>
 
             
             
