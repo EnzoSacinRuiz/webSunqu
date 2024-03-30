@@ -22,3 +22,13 @@
     font-weight: normal; /* or 500 if "medium" is considered font-weight: 500 */
     font-style: normal;
 }
+
+
+
+@font-face {
+     font-family: 'TrialRooftop-Regular';
+     src: local('TrialRooftop-Regular'),
+          url('./TRIAL_Rooftop-Regular-BF64a6319fae1cf.otf') format('opentype');
+     font-weight: normal; /* or 500 if "medium" is considered font-weight: 500 */
+     font-style: normal;
+ }
