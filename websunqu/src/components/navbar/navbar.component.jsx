@@ -11,7 +11,7 @@ function NavbarComponent() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
         <img
             alt="Logo"
             src={logoSunqu}
@@ -23,10 +23,10 @@ function NavbarComponent() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home" className="nav-link-custom">Insights</Nav.Link>
-            <Nav.Link href="#link" className="nav-link-custom">Nosotros</Nav.Link>
-            <Nav.Link href="#link" className="nav-link-custom">Servicios</Nav.Link>
-            <Nav.Link href="#link" className="nav-link-custom">Equipo</Nav.Link>
+            <Nav.Link href="/insights" className="nav-link-custom">Insights</Nav.Link>
+            <Nav.Link href="/nosotros" className="nav-link-custom">Nosotros</Nav.Link>
+            <Nav.Link href="/servicios" className="nav-link-custom">Servicios</Nav.Link>
+            <Nav.Link href="/equipo" className="nav-link-custom">Equipo</Nav.Link>
             {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
