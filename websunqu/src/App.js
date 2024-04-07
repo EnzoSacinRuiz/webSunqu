@@ -5,6 +5,7 @@ import Servicios from './views/servicios/servicios.component';
 import Insights from './views/insights/insights.component';
 import Equipo from './views/equipo/equipo.component';
 import Nosotros from './views/nosotros/nosotros.component';
+import BlogDetail from './views/blogDetail/blogDetail';
 
 import {Route,BrowserRouter,Routes} from "react-router-dom"
 
@@ -21,6 +22,8 @@ function App() {
       <Route path="/insights" element={<Insights/>}/>
       <Route path="/nosotros" element={<Nosotros/>}/>
       <Route path="/equipo" element={<Equipo/>}/>
+      <Route path="/insights/:id" component={BlogDetail} />
+
 
 
 
